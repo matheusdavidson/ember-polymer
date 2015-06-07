@@ -1,0 +1,175 @@
+body {
+	font-family: "RobotoDraft", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+}
+body > div {
+	height: 100%;
+}
+html /deep/ .text-display-4 {
+	font-size: 112px;
+	font-weight: 300;
+	line-height: 128px;
+	letter-spacing: -5px;
+}
+html /deep/ .text-display-3 {
+	font-size: 56px;
+	font-weight: 400;
+	line-height: 64px;
+}
+html /deep/ .text-display-2 {
+	font-size: 45px;
+	font-weight: 400;
+	line-height: 64px;
+}
+html /deep/ .text-display-1 {
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 52px;
+}
+html /deep/ .text-title-section {
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 52px;
+}
+html /deep/ .text-title-section {
+	color: rgb(76, 28, 170);
+}
+html /deep/ .text-headline {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 44px;
+}
+html /deep/ .text-small-headline {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 40px;
+}
+html /deep/ .text-title {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 44px;
+}
+html /deep/ .text-subhead {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+}
+html /deep/ .text-body {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+}
+html /deep/ .text-caption {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 32px;
+}
+html /deep/ .text-caption core-icon {
+	width: 16px;
+	height: 16px;
+}
+html /deep/ .text-menu {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 32px;
+}
+html /deep/ .text-button {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 32px;
+}
+h1, h2, h3, h4 {
+	margin: 0;
+}
+p {
+	max-width: 40em;
+	margin: 8px 0;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 300;
+	letter-spacing: -0.01em;
+	line-height: 48px;
+	margin: 0
+}
+h1 {
+	font-size: 40px
+}
+polyfill-next-selector {
+	content: ':host h1'
+}
+::content h1 {
+	font-size: 40px
+}
+h2 {
+	font-size: 24px
+}
+polyfill-next-selector {
+	content: ':host h2'
+}
+::content h2 {
+	font-size: 24px
+}
+h3 {
+	font-size: 20px
+}
+polyfill-next-selector {
+	content: ':host h3'
+}
+::content h3 {
+	font-size: 20px
+}
+h4 {
+	font-size: 16px;
+	font-weight: 500
+}
+polyfill-next-selector {
+	content: ':host h4'
+}
+::content h4 {
+	font-size: 16px;
+	font-weight: 500
+}
+h5 {
+	font-size: 12px;
+	font-weight: 500
+}
+polyfill-next-selector {
+	content: ':host h5'
+}
+::content h5 {
+	font-size: 12px;
+	font-weight: 500
+}
+strong, b {
+	font-weight: 500;
+}
+html /deep/ input[is=core-input], html /deep/ select[is=core-select] {
+	font-size: 16px !important;
+}
+html core-field.paper /deep/ core-icon:first-child {
+	margin: 20px 8px 0px 0px !important;
+	width: 18px;
+	height: 18px;
+}
+html /deep/ paper-input-decorator {
+	line-height: normal;
+}
+
+ html /deep/ paper-select-decorator {
+	line-height: 13px;
+}
+
+/* ALIGN */
+html /deep/ .text-center {
+	text-align: center;
+}
+html /deep/ .text-right {
+	text-align: right;
+}
+html /deep/ .text-left {
+	text-align: left;
+}
