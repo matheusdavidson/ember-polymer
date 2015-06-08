@@ -18,14 +18,13 @@
     <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/client.css">
     
+    {{content-for 'head-footer'}}
+  </head>
+  <body>
     <paper-toolbar>
       <div>Inside index.html</div>
     </paper-toolbar>
     <paper-checkbox>Im a checkbox on index.html</paper-checkbox>
-      
-    {{content-for 'head-footer'}}
-  </head>
-  <body>
     {{content-for 'body'}}
     <script src="assets/vendor.js"></script>
     <script src="assets/client.js"></script>
